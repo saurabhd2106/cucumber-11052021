@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.569">
+    <testcase classname="Gmail Signup Feature" name="Gmail Signup" time="0.139">
+        <system-out><![CDATA[Given User is on signup page................................................passed
+When User enters below details..............................................passed
+Then User confirms the account..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

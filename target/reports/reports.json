@@ -1,0 +1,192 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-11T13:42:39.574Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4001400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.preSetup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1001200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Gmail Signup",
+        "description": "",
+        "id": "gmail-signup-feature;gmail-signup",
+        "after": [
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.postCleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.beforeEveryStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on signup page",
+            "match": {
+              "location": "stepDefinition.GmailSignup.user_is_on_signup_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterEveryStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13509000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.beforeEveryStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User enters below details",
+            "match": {
+              "location": "stepDefinition.GmailSignup.user_enters_below_details(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterEveryStep()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Saurabh"
+                ]
+              },
+              {
+                "cells": [
+                  "Dhingra"
+                ]
+              },
+              {
+                "cells": [
+                  "saurabh@abc.com"
+                ]
+              },
+              {
+                "cells": [
+                  "abc@123"
+                ]
+              },
+              {
+                "cells": [
+                  "abc@124"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.beforeEveryStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "User confirms the account",
+            "match": {
+              "location": "stepDefinition.GmailSignup.user_confirms_the_account()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterEveryStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      }
+    ],
+    "name": "Gmail Signup Feature",
+    "description": "",
+    "id": "gmail-signup-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/facebook.feature",
+    "tags": []
+  }
+]
